@@ -1,0 +1,19 @@
+h3{
+  color: #7B68EE;
+}
+h1{
+  color: #A9A9A9;
+  font-family: fantasy;
+  font-weight: 100;
+}
+a{
+  text-decoration:none;
+  margin-left: 20px
+}
+body{
+  background-color:#E0FFFF
+}
+img{
+  height: 250px;
+  width: 200px;
+}
