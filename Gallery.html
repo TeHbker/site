@@ -4,30 +4,40 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-    <link rel="stylesheet" href="stylefile.css">
+  <link rel="stylesheet" href="stylefile3.css">
 </head>
 
-<body>
+<body style="margin:2">
   <a href="Моё_Величиство.html" style="text-decoration:none;margin-left:-5px;">Головна</a>
   <a href="Contacts.html" style="text-decoration:none;margin-left:20px;">My Contacts</a>
   <a href="WorkExperience.html" style="text-decoration:none; margin-left:20px">Work experience</a>
-  <h1 style="color: #134D;background-color:#1211;">
+  <a href="responsive-flex.html">responsive-flex</a>
+  <a href="parallax.html">parallax</a>
+  <h1 style="color: #134D;background-color:#1211; text-align:center">
     Моя галерея
     <hr>
   </h1>
-  <ol type="a">
-    <li>  <img src="фоточки/3.jpg" alt="me" style="margin-top: -15px; width: 40%; height: 50%; border:4px solid;">
-      <figcaption style="margin-left:-2px; font-size:18px">
-        Гітарист</figcaption> </li>
-    <li> <img src="фоточки/Coocker.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:4px solid;">
-    <figcaption style="margin-left:-2px; font-size:18px">  Кухар</figcaption></li>
-    <li> <img src="фоточки/vipuskn1.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:4px solid;">
-    <figcaption style="margin-left:-2px; font-size:18px">
-      Випускний 2020</figcaption> </li>
-    <li> <img src="фоточки/vipuskn2.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:4px solid;">
-    <figcaption style="margin-left:-2px; font-size:18px">
-      Группа фіз-мату</figcaption> </li>
-  </ol>
-
+  <div id="flex-container">
+    <span class="box1">
+      <img src="фоточки/3.jpg" alt="me" style="width: 40%; height: 50%; border:2px solid;">
+      <figcaption style="margin-left:-2px; font-size:20px">
+        Гітарист</figcaption>
+    </span>
+    <span class="box2">
+      <img src="фоточки/Coocker.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:2px solid;">
+      <figcaption style="margin-left:-2px; font-size:20px; color:white"> Кухар</figcaption>
+    </span>
+    <span class="box3">
+      <img src="фоточки/vipuskn1.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:2px solid;">
+      <figcaption style="margin-left:-2px; font-size:20px">
+        Випускний 2020</figcaption>
+    </span>
+    <span class="box4">
+      <img src="фоточки/vipuskn2.jpg" alt="me" style="margin-top: 25px; width: 40%; height: 50%; border:2px solid;">
+      <figcaption style="margin-left:-2px; font-size:20px; color:white; background-color:black">
+        Группа фіз-мату</figcaption>
+    </span>
+  </div>
 </body>
+
 </html>

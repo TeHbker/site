@@ -1,0 +1,38 @@
+h3{
+  color: #7B68EE;
+}
+h1{
+  color: #A9A9A9;
+  font-family: fantasy;
+  font-weight: 100;
+}
+
+label{
+  color: white;
+}
+a{
+  text-decoration:none;
+  margin-left: 20px;
+  color: white;
+}
+body{
+  background-color:#E0FFFF;
+}
+img{
+  height: 250px;
+  width: 200px;
+}
+#flex-container3{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: right;
+}
+.boxa{
+  background: #87CEFA;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 300px;
+  background: url(фоточки/bg1.jpg) center / cover no-repeat;
+  align-items: flex-end;
+}

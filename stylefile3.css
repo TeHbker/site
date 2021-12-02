@@ -1,0 +1,55 @@
+h3{
+  color: #7B68EE;
+}
+h1{
+  color: #A9A9A9;
+  font-family: fantasy;
+  font-weight: 100;
+}
+a{
+  text-decoration:none;
+  margin-left: 20px;
+  color: black;
+}
+body{
+  background-color:#E0FFFF
+}
+
+#flex-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+.box1{
+  background: url(фоточки/guitar1.jpg) center / cover no-repeat;
+  width:100%;
+  height: auto;
+  flex-shrink: 0;
+  bottom: 10px;
+  right: 10px;
+}
+.box2{
+  background: url(фоточки/chef.jpg) center / cover no-repeat;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  bottom: 10px;
+  right: 10px;
+}
+.box3{
+  background: url(фоточки/vipsk.jpg) center / cover no-repeat;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  bottom: 10px;
+  right: 10px;
+}
+.box4{
+  background: url(фоточки/fizmat.jpg) center / cover no-repeat;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  bottom: 10px;
+  right: 10px;
+}
