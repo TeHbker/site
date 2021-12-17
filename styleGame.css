@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+  text-decoration:none;
+  margin-left: 15px;
+  color: black;
+}
+body {
+	background-color: #87CEEB;
+	min-height: 100%;
+}
+
+.cont {
+	max-width: 900px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.wrap {
+	max-width: 900px;
+	min-height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 8rem;
+	color: #8B0000;
+	font-family: Comic Sans MS;
+}
+
+.dice{
+	margin-top: 1.5rem;
+  height: 70%;
+  width: 70%;
+}
+
+.players {
+	display: flex;
+	align-items: center;
+	color: #8B0000;
+	font-family: Jokerman;
+}
+
+.pl1 {
+	display: flex;
+	flex: 1 1 100%;
+	flex-direction: column;
+	text-align: center;
+}
+
+.pl2 {
+	display: flex;
+	flex: 1 1 100%;
+	flex-direction: column;
+	text-align: center;
+}
